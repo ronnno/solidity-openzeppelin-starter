@@ -1,0 +1,22 @@
+{
+  "name": "soltrain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@openzeppelin/test-environment": "^0.1.6",
+    "@openzeppelin/test-helpers": "^0.5.9",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "truffle": "^5.1.54"
+  },
+  "scripts": {
+    "test": "truffle compile && mocha --exit --recursive"
+  },
+  "author": "",
+  "license": "ISC"
+}
