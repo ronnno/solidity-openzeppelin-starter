@@ -15,6 +15,11 @@ module.exports = {
 
     node: { // Options passed directly to Ganache client
         gasLimit: 8e6, // Maximum gas per block
-        gasPrice: 20e9 // Sets the default gas price for transactions if not otherwise specified.
+        gasPrice: 20e9, // Sets the default gas price for transactions if not otherwise specified.
+        // Uncomment and edit to use a mainnet fork
+        // fork: 'https://mainnet.infura.io/v3/<INFURA ACCOUNT ID>',
+        // unlocked_accounts: [
+        //     "0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B",
+        // ], // Array of addresses specifying which accounts should be unlocked.
     },
 };

@@ -3,10 +3,6 @@ const { BN } = require('@openzeppelin/test-helpers');
 const [ owner ] = accounts;
 
 const { expect } = require('chai');
-// const chai = require('chai');
-// console.log('BN', BN)
-// chai.use(require('chai-bn')(BN));
-// const { expect } = chai;
 
 const MyContract = contract.fromArtifact('MyContract'); // Loads a compiled contract
 
